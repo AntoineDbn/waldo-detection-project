@@ -1,0 +1,17 @@
+# YOLOv8 Dataset Configuration
+# Waldo Detection Project
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ["waldo"]
+
+# Paths to dataset (relative to this file or absolute)
+# Update these paths based on your directory structure
+train: data/processed/images/train
+val: data/processed/images/val
+test: data/processed/images/test  # optional
+
+# Dataset info (optional)
+# download: https://github.com/yourusername/waldo-detection-project

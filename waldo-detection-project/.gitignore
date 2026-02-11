@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Data directories (large files)
+data/raw/*
+data/annotated/*
+data/processed/*
+data/backgrounds/*
+!data/.gitkeep
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+*.weights
+data/models/*
+!data/models/.gitkeep
+runs/
+weights/
+
+# Dataset images
+dataset/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+!assets/**/*.png
+!assets/**/*.jpg
+
+# Outputs
+results/
+outputs/
+predictions/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Environment variables
+.env
+.env.local

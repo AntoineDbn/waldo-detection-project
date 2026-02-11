@@ -1,0 +1,33 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Object Detection
+ultralytics>=8.0.0
+
+# CLIP for re-ranking
+transformers>=4.30.0
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Image Processing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Stable Diffusion (for inpainting)
+diffusers>=0.21.0
+accelerate>=0.20.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: Jupyter for notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+matplotlib>=3.7.0
+
+# Optional: Web demo
+gradio>=3.40.0  # Uncomment if you want to create a web interface
